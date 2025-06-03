@@ -1,84 +1,46 @@
-# OS X 10.4 Emu
 
-🖥️ A lovingly crafted Swift-based emulator front-end that mimics the classic **Mac OS X 10.4 "Tiger"** login experience — complete with Aqua UI, brushed metal textures, startup chime, and vintage realism.
+# 🖥️ OS X 10.4 Emu
 
-> **Note**: This is not a full emulator or virtualization engine, but a user interface recreation designed to run in SwiftUI. It's great for aesthetic experiences, UI demos, or educational interfaces.
-
----
-
-## ✨ Features
-
-- 🎵 **Mac Boot Chime** on startup
-- 🔐 Realistic **Login Screen** with Aqua-style text fields and buttons
-- 🧊 **Brushed metal** background and Tiger-era glass panel design
-- 👁️ Show/Hide password toggle
-- 🖼️ Custom user images (via `Assets.xcassets`)
-- ⌨️ Focused input fields with native styling
-- 🧪 Built entirely in **SwiftUI**
+**Welcome to the Mac time machine!**  
+This is a fun emulator that lets you run **Mac OS X Tiger (10.4)** like it’s 2005 again!  
+If you love old computers, cool boot sounds, or just want to see what Macs looked like back in the day — this is for you!
 
 ---
 
-## 📦 Installation
+## 🚀 What Can You Do?
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/osx10.4-emu.git
-   cd osx10.4-emu
-   ```
-
-2. Open the project in **Xcode**.
-
-3. Run the app in MacOS!
+- Boot into a virtual Mac with real sounds and effects 🎵
+- Watch the classic Mac OS X welcome video 📽️
+- Play with a setup assistant just like the old days 🧙‍♂️
+- Experience the **login screen**, Aqua buttons, and more!
+- Even the loading bar has that shiny blue swirl ✨
 
 ---
 
-## 🔧 Customization
+## 🧑‍💻 How To Run It
 
-- Change the background by replacing `default` in `Assets.xcassets`.
-- Update user icons or login names in the SwiftUI view.
-- Add realistic power buttons (Sleep, Restart, Shutdown) to enhance authenticity.
-- Modify animation speed, blur, or shadow to match original Tiger behavior.
+1. Make sure you have **macOS** and **Xcode** installed.
+2. Open the Xcode project called `OSX-Emu.xcodeproj`.
+3. Click the play ▶️ button to run the app.
+4. Boom! You're back in 2005! 🕰️
+
+---
+
+## 📁 Project Files
+
+- `intro.mov`: the Mac intro video
+- `intro-sound.mp3`: sound that plays with it
+- Beautiful SwiftUI code styled like Aqua 😍
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
-
-```
-MIT License
-
-Copyright (c) 2025 Josiah
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-...
-
-(Include full MIT license text here or link to it.)
-```
+This project is under the **MIT License**, which means:  
+You can use it, change it, and share it freely — just remember to keep the license with it!
 
 ---
 
-## 🧠 Credits
+## 👦 Made By
 
-- Mac OS X 10.4 Design: © Apple Computer, Inc.
-- Inspired by the original login screen from Tiger.
-- SwiftUI inspiration from the Aqua revival community.
-
----
-
-## 🚀 Roadmap
-
-- [ ] User switching with animated transition
-- [ ] Boot progress bar with barber pole effect
-- [ ] Audio feedback on login failure
-- [ ] Optional password validation and fake desktop boot animation
-
----
-
-Enjoy the nostalgia! 🍎
+Created by Josiah
