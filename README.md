@@ -28,12 +28,7 @@
 
 2. Open the project in **Xcode**.
 
-3. Add your assets:
-   - `default.jpg` — background wallpaper
-   - `user.png` — user image
-   - `macos_chime.mp3` — the boot sound (licensed or royalty-free version)
-
-4. Run the app in the iOS or macOS simulator, or on a real device.
+3. Run the app in MacOS!
 
 ---
 
