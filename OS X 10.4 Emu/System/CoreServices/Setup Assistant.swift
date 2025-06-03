@@ -30,7 +30,7 @@ struct VideoPlayerView: NSViewRepresentable {
 struct ContentView: View {
     @State private var videoPlayer: AVPlayer?
     @State private var audioPlayer: AVPlayer?
-    @State private var videoFinished = true //Change to false to watch the intro video
+    @State private var videoFinished = false //Change to false to watch the intro video
 
     var body: some View {
         ZStack {
